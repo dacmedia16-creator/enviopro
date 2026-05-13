@@ -1,6 +1,7 @@
 import { Hero } from "./Hero";
 import { PainSection } from "./PainSection";
 import { WhatWeDo } from "./WhatWeDo";
+import { NoChipBanner } from "./NoChipBanner";
 import { WhyWhatsApp } from "./WhyWhatsApp";
 import { ForWho } from "./ForWho";
 import { HowItWorks } from "./HowItWorks";
@@ -16,6 +17,7 @@ export function Landing() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Hero />
+      <NoChipBanner />
       <PainSection />
       <WhatWeDo />
       <WhyWhatsApp />
