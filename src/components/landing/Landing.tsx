@@ -33,7 +33,8 @@ export function Landing() {
       <Compliance />
       <MailingSection />
       <FinalCTA />
-      <Footer />
+        <Footer />
+      </div>
       <FloatingWhatsApp />
     </main>
   );
