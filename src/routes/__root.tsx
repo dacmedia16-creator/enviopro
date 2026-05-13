@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Envio Pro" },
+      { name: "description", content: "Envio Pro - 10 mil envios dia pelo Whats sem bloqueio" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Envio Pro" },
+      { property: "og:description", content: "Envio Pro - 10 mil envios dia pelo Whats sem bloqueio" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Envio Pro" },
+      { name: "twitter:description", content: "Envio Pro - 10 mil envios dia pelo Whats sem bloqueio" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a36262f7-a2a2-4f7c-bbbe-04e5c3166529" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a36262f7-a2a2-4f7c-bbbe-04e5c3166529" },
     ],
     links: [
       {
