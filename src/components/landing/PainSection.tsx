@@ -15,11 +15,7 @@ export function PainSection() {
     <section className="relative py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
-          eyebrow={
-            <span className="inline-flex items-center gap-1.5">
-              <AlertTriangle className="h-3 w-3" /> Atenção
-            </span> as unknown as string
-          }
+          eyebrow="⚠ Atenção"
           title="Você pode estar perdendo vendas todos os dias"
           subtitle="Enquanto sua empresa não se comunica com a base que já tem, leads esfriam, clientes esquecem suas ofertas e oportunidades deixam de virar vendas."
         />
