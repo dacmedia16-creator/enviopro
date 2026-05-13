@@ -1,4 +1,4 @@
-import { Clock, UserX, Megaphone, Hand, Database, AlertTriangle } from "lucide-react";
+import { Clock, UserX, Megaphone, Hand, Database } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 import { CTAButton } from "./CTAButton";
 
