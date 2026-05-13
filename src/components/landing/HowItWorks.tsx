@@ -2,18 +2,33 @@ import { SectionHeader } from "./SectionHeader";
 import { CTAButton } from "./CTAButton";
 
 const steps = [
-  { n: "1", title: "Você envia sua base autorizada", desc: "Organizamos os contatos e entendemos o objetivo da campanha." },
-  { n: "2", title: "Criamos a estratégia da mensagem", desc: "Ajustamos texto, oferta, gatilho e chamada para ação." },
-  { n: "3", title: "Preparamos o envio", desc: "Configuramos a campanha de forma organizada e segmentada." },
-  { n: "4", title: "Sua campanha vai ao ar", desc: "As mensagens são enviadas para sua base conforme a estratégia definida." },
-  { n: "5", title: "Você recebe respostas e oportunidades", desc: "Sua equipe conversa com os interessados e transforma conversas em vendas." },
+  {
+    n: "1",
+    title: "Validação da base autorizada",
+    desc: "Organizamos os contatos que já autorizaram receber sua comunicação e avaliamos a melhor estratégia de abordagem.",
+  },
+  {
+    n: "2",
+    title: "Planejamento da mensagem",
+    desc: "Criamos mensagens claras, segmentadas e com foco em gerar respostas reais, sem parecer comunicação genérica.",
+  },
+  {
+    n: "3",
+    title: "Ativação da campanha",
+    desc: "A campanha é colocada em operação com acompanhamento das respostas e foco em oportunidades comerciais.",
+  },
+  {
+    n: "4",
+    title: "Análise e melhoria",
+    desc: "Acompanhamos os resultados para ajustar abordagem, segmentação e próximos passos.",
+  },
 ];
 
 export function HowItWorks() {
   return (
     <section className="relative py-20 md:py-28">
       <div className="mx-auto max-w-5xl px-6">
-        <SectionHeader eyebrow="Como funciona" title="Como funciona na prática" />
+        <SectionHeader eyebrow="Como funciona" title="Como sua campanha é colocada em operação" />
 
         <div className="relative mt-14">
           <div className="absolute left-[27px] top-2 bottom-2 w-px bg-gradient-to-b from-primary/60 via-primary/30 to-transparent md:left-1/2 md:-translate-x-1/2" />
@@ -41,7 +56,7 @@ export function HowItWorks() {
         </div>
 
         <div className="mt-14 flex justify-center">
-          <CTAButton>Começar minha campanha</CTAButton>
+          <CTAButton>Quero planejar minha campanha</CTAButton>
         </div>
       </div>
     </section>

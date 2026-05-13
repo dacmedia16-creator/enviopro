@@ -3,13 +3,13 @@ import { SectionHeader } from "./SectionHeader";
 import { CTAButton } from "./CTAButton";
 
 const items = [
-  "Texto da campanha",
-  "Segmentação da base",
-  "Chamada para ação",
-  "Organização do envio",
-  "Estratégia de resposta",
-  "Orientação para conversão",
+  "Mais clareza na comunicação com clientes",
+  "Mais oportunidades a partir da base existente",
+  "Mais respostas com mensagens segmentadas",
+  "Menos retrabalho no processo comercial",
+  "Campanhas mais organizadas e acompanhadas",
   "Foco em contatos autorizados",
+  "Estratégia alinhada às boas práticas",
 ];
 
 export function Differentials() {
@@ -18,8 +18,8 @@ export function Differentials() {
       <div className="mx-auto max-w-5xl px-6">
         <SectionHeader
           eyebrow="Diferenciais"
-          title="Não é só disparar mensagem. É criar uma campanha que gera ação."
-          subtitle="Ajudamos você a transformar uma simples lista de contatos em uma campanha com objetivo, mensagem, segmentação e chamada para ação."
+          title="Não é só enviar mensagem. É criar uma campanha que gera ação."
+          subtitle="Ajudamos você a transformar uma base autorizada em uma campanha com objetivo, mensagem, segmentação e chamada para ação."
         />
 
         <ul className="mx-auto mt-12 grid max-w-3xl gap-3 sm:grid-cols-2">

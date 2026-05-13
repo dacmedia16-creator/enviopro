@@ -21,7 +21,7 @@ export function PhoneMockup() {
               Z
             </div>
             <div className="flex-1">
-              <p className="text-sm font-semibold text-white">ZapBoost</p>
+              <p className="text-sm font-semibold text-white">EnvioPro</p>
               <p className="text-[11px] text-emerald-300">online</p>
             </div>
             <div className="h-2 w-2 rounded-full bg-emerald-400" />
