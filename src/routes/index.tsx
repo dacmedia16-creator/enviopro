@@ -1,26 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Landing } from "@/components/landing/Landing";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "ZapBoost — Campanhas de WhatsApp para Ativar sua Base" },
+      {
+        name: "description",
+        content:
+          "Criamos campanhas de WhatsApp para empresas ativarem leads, recuperarem clientes e divulgarem ofertas para bases autorizadas. Mais conversas, mais vendas.",
+      },
+      { property: "og:title", content: "ZapBoost — Campanhas de WhatsApp para Empresas" },
+      {
+        property: "og:description",
+        content:
+          "Ative sua base autorizada com campanhas estratégicas de WhatsApp. Recupere leads, reative clientes e gere conversas comerciais.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return <Landing />;
 }
