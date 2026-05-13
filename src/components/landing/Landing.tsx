@@ -13,11 +13,14 @@ import { MailingSection } from "./MailingSection";
 import { FinalCTA } from "./FinalCTA";
 import { Footer } from "./Footer";
 import { FloatingWhatsApp } from "./FloatingWhatsApp";
+import { FloatingDecor } from "./FloatingDecor";
 
 export function Landing() {
   return (
-    <main className="min-h-screen bg-background text-foreground">
-      <Hero />
+    <main className="relative min-h-screen bg-background text-foreground overflow-hidden">
+      <FloatingDecor />
+      <div className="relative z-10">
+        <Hero />
       <NoChipBanner />
       <PainSection />
       <WhatWeDo />
