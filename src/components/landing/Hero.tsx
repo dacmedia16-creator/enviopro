@@ -40,6 +40,13 @@ export function Hero() {
             </span>
           </h1>
 
+          <div className="mt-6 inline-flex items-center gap-3 rounded-2xl border border-urgency/40 bg-urgency/10 px-4 py-3">
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-urgency/20 text-xl">🚀</span>
+            <p className="text-sm font-bold leading-snug text-foreground md:text-base">
+              Imagina disparar <span className="text-urgency">10 mil mensagens por dia</span> para a sua base.
+            </p>
+          </div>
+
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
             Criamos campanhas estratégicas de WhatsApp para empresas que querem ativar leads,
             recuperar clientes e divulgar ofertas para contatos autorizados.
