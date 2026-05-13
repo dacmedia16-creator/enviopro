@@ -9,6 +9,7 @@ import { Examples } from "./Examples";
 import { Benefits } from "./Benefits";
 import { Differentials } from "./Differentials";
 import { Compliance } from "./Compliance";
+import { MailingSection } from "./MailingSection";
 import { FinalCTA } from "./FinalCTA";
 import { Footer } from "./Footer";
 import { FloatingWhatsApp } from "./FloatingWhatsApp";
@@ -27,6 +28,7 @@ export function Landing() {
       <Benefits />
       <Differentials />
       <Compliance />
+      <MailingSection />
       <FinalCTA />
       <Footer />
       <FloatingWhatsApp />
