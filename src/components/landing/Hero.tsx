@@ -34,9 +34,9 @@ export function Hero() {
           </span>
 
           <h1 className="mt-5 text-4xl font-black leading-[1.05] tracking-tight text-balance md:text-5xl lg:text-6xl">
-            Sua base de contatos está parada.{" "}
+            10 mil disparos por dia,{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Nós colocamos ela para gerar conversas no WhatsApp.
+              sem bloqueio e sem perder chip.
             </span>
           </h1>
 
