@@ -4,7 +4,7 @@ import { CTAButton } from "./CTAButton";
 
 const campaigns = [
   { tag: "Reativação", text: "Você ainda tem interesse em conhecer nossos planos?" },
-  { tag: "Promoção", text: "Condição especial válida por tempo limitado." },
+  { tag: "Oferta", text: "Condição especial válida por tempo limitado para nossos clientes." },
   { tag: "Lançamento", text: "Nova turma aberta. Quer receber os detalhes?" },
   { tag: "Recuperação", text: "Percebemos que você demonstrou interesse e não finalizou." },
   { tag: "Relacionamento", text: "Passando para te avisar sobre uma novidade importante." },
@@ -16,7 +16,7 @@ export function Examples() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeader
           eyebrow="Exemplos"
-          title="Campanhas que você pode colocar no ar"
+          title="Campanhas que você pode colocar em operação"
         />
 
         <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">

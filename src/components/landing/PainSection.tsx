@@ -6,8 +6,8 @@ const pains = [
   { icon: UserX, title: "Leads parados sem follow-up", desc: "Interessados que nunca mais foram chamados." },
   { icon: Clock, title: "Clientes antigos sem reativação", desc: "Quem já comprou está esquecendo da sua marca." },
   { icon: Megaphone, title: "Promoções que não chegam ao público certo", desc: "Ofertas boas que nenhum cliente vê." },
-  { icon: Hand, title: "Equipe perdendo tempo com mensagens manuais", desc: "Copia, cola, envia. E o resultado some." },
-  { icon: Database, title: "Base de contatos sendo desperdiçada", desc: "Um ativo comercial valioso parado no celular." },
+  { icon: Hand, title: "Equipe perdendo tempo com processos manuais", desc: "Mensagens enviadas uma a uma, sem padrão e sem acompanhamento." },
+  { icon: Database, title: "Base de contatos sendo desperdiçada", desc: "Um ativo comercial valioso parado, sem nenhuma estratégia de ativação." },
 ];
 
 export function PainSection() {

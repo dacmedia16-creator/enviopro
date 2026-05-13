@@ -8,11 +8,11 @@ export function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
             <div className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground font-black">Z</div>
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground font-black">E</div>
               <span className="text-lg font-extrabold">{BRAND}</span>
             </div>
             <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-              Campanhas de WhatsApp para empresas que querem ativar sua base e gerar conversas comerciais.
+              Campanhas de WhatsApp para empresas ativarem bases autorizadas e gerarem novas conversas comerciais.
             </p>
           </div>
 
@@ -28,7 +28,8 @@ export function Footer() {
 
         <div className="mt-10 border-t border-border pt-6 text-xs text-muted-foreground">
           <p>
-            Campanhas realizadas para bases autorizadas e contatos com relacionamento prévio.
+            Campanhas realizadas para bases autorizadas e contatos com relacionamento prévio,
+            seguindo boas práticas de comunicação responsável.
           </p>
           <p className="mt-2">© {new Date().getFullYear()} {BRAND}. Todos os direitos reservados.</p>
         </div>

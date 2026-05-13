@@ -4,17 +4,17 @@ import { Landing } from "@/components/landing/Landing";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ZapBoost — Campanhas de WhatsApp para Ativar sua Base" },
+      { title: "EnvioPro | Campanhas de WhatsApp para Bases Autorizadas" },
       {
         name: "description",
         content:
-          "Criamos campanhas de WhatsApp para empresas ativarem leads, recuperarem clientes e divulgarem ofertas para bases autorizadas. Mais conversas, mais vendas.",
+          "Ative clientes e leads autorizados pelo WhatsApp com campanhas planejadas, segmentação e acompanhamento das respostas. Gere novas oportunidades comerciais com comunicação responsável.",
       },
-      { property: "og:title", content: "ZapBoost — Campanhas de WhatsApp para Empresas" },
+      { property: "og:title", content: "EnvioPro | Campanhas de WhatsApp para Bases Autorizadas" },
       {
         property: "og:description",
         content:
-          "Ative sua base autorizada com campanhas estratégicas de WhatsApp. Recupere leads, reative clientes e gere conversas comerciais.",
+          "Ative clientes e leads autorizados pelo WhatsApp com campanhas planejadas, segmentação e acompanhamento das respostas.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

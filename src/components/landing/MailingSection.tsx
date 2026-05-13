@@ -1,25 +1,13 @@
-import { Database, MapPin, Users, Briefcase, Car, Filter, CheckCircle2 } from "lucide-react";
+import { Database, MapPin, Users, Briefcase, Filter, CheckCircle2, Sparkles } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 
-const FILTERS = [
-  "DDD",
-  "Estado",
-  "Cidade",
-  "Bairro",
-  "Operadora",
-  "Sexo",
-  "Aposentados e Pensionistas",
-  "Poder Aquisitivo",
-  "Profissão",
-  "Proprietários de Veículos",
-  "Pessoa Física ou Jurídica",
-];
-
 const HIGHLIGHTS = [
-  { icon: MapPin, label: "Segmentação geográfica" },
-  { icon: Users, label: "Perfil demográfico" },
-  { icon: Briefcase, label: "Profissão e renda" },
-  { icon: Car, label: "Patrimônio e bens" },
+  { icon: Sparkles, label: "Higienização da base" },
+  { icon: Filter, label: "Segmentação por perfil" },
+  { icon: MapPin, label: "Organização por região" },
+  { icon: Users, label: "Foco em públicos autorizados" },
+  { icon: Briefcase, label: "Direcionamento por interesse" },
+  { icon: CheckCircle2, label: "Mensagens mais relevantes" },
 ];
 
 export function MailingSection() {
@@ -33,13 +21,14 @@ export function MailingSection() {
           <div className="text-center mb-10">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-2 text-sm font-bold text-primary mb-4">
               <Database className="h-4 w-4" />
-              MAILING QUALIFICADO E VALIDADO
+              ORGANIZAÇÃO DA BASE DE CONTATOS
             </div>
             <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
-              Precisa de <span className="text-primary">mailing</span> para captar novos clientes?
+              Precisa <span className="text-primary">organizar sua base</span> para gerar mais oportunidades?
             </h2>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              Trabalhamos com listas qualificadas e validadas, segmentadas exatamente para o seu público-alvo.
+              Apoiamos sua empresa na organização, higienização e segmentação da base de contatos,
+              ajudando a criar campanhas mais relevantes e direcionadas para públicos com autorização de comunicação.
             </p>
           </div>
 
@@ -55,30 +44,12 @@ export function MailingSection() {
               ))}
             </div>
 
-            <div className="mb-8">
-              <div className="flex items-center gap-2 mb-4 text-sm font-bold uppercase tracking-wider text-muted-foreground">
-                <Filter className="h-4 w-4 text-primary" />
-                Filtros disponíveis
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {FILTERS.map((f) => (
-                  <span
-                    key={f}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-3 py-1.5 text-sm font-medium text-foreground hover:bg-primary/20 transition-colors"
-                  >
-                    <CheckCircle2 className="h-3.5 w-3.5 text-primary" />
-                    {f}
-                  </span>
-                ))}
-              </div>
-            </div>
-
             <div className="flex flex-col items-center text-center gap-4 pt-6 border-t border-border">
               <p className="text-lg md:text-xl font-semibold">
-                Agende uma reunião virtual com nossos especialistas e descubra como{" "}
-                <span className="text-primary">ampliar o alcance da sua empresa</span>.
+                Agende uma conversa com nossos especialistas e descubra como{" "}
+                <span className="text-primary">aproveitar melhor a base que sua empresa já tem</span>.
               </p>
-              <CTAButton>Agendar reunião pelo WhatsApp</CTAButton>
+              <CTAButton>Quero organizar minha base</CTAButton>
             </div>
           </div>
         </div>
