@@ -4,7 +4,7 @@ import { CTAButton } from "./CTAButton";
 const steps = [
   {
     n: "1",
-    title: "Validação da base autorizada",
+    title: "Validação da base de contatos",
     desc: "Organizamos os contatos que já autorizaram receber sua comunicação e avaliamos a melhor estratégia de abordagem.",
   },
   {

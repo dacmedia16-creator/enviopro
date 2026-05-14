@@ -5,7 +5,7 @@ const HIGHLIGHTS = [
   { icon: Sparkles, label: "Higienização da base" },
   { icon: Filter, label: "Segmentação por perfil" },
   { icon: MapPin, label: "Organização por região" },
-  { icon: Users, label: "Foco em públicos autorizados" },
+  { icon: Users, label: "Foco em públicos segmentados" },
   { icon: Briefcase, label: "Direcionamento por interesse" },
   { icon: CheckCircle2, label: "Mensagens mais relevantes" },
 ];

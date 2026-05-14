@@ -20,7 +20,7 @@ export function WhatWeDo() {
         <SectionHeader
           eyebrow="O que fazemos"
           title="Campanhas de WhatsApp para ativar sua base e gerar resposta"
-          subtitle="Ajudamos empresas a planejar, criar e enviar campanhas pelo WhatsApp para bases autorizadas, com mensagens pensadas para chamar atenção e gerar conversas comerciais."
+          subtitle="Ajudamos empresas a planejar, criar e enviar campanhas pelo WhatsApp para sua base de contatos, com mensagens pensadas para chamar atenção e gerar conversas comerciais."
         />
 
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

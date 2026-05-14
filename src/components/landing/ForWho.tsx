@@ -43,7 +43,7 @@ export function ForWho() {
 
         <div className="mx-auto mt-12 max-w-3xl rounded-3xl border-l-4 border-urgency bg-surface p-6 text-center md:p-8">
           <p className="text-lg font-bold leading-snug md:text-xl">
-            <span className="text-urgency">★</span> Se você tem uma base autorizada, você tem um{" "}
+            <span className="text-urgency">★</span> Se você tem uma base de contatos, você tem um{" "}
             <span className="text-urgency">ativo comercial</span> que pode ser ativado hoje.
           </p>
         </div>

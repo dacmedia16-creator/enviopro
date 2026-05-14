@@ -13,15 +13,15 @@ const faqs = [
   },
   {
     q: "Vocês fazem disparo em massa?",
-    a: "Não posicionamos o serviço dessa forma. Nosso foco é estruturar campanhas de WhatsApp para bases autorizadas, com segmentação, mensagem planejada e acompanhamento das respostas.",
+    a: "Não posicionamos o serviço dessa forma. Nosso foco é estruturar campanhas de WhatsApp para sua base de contatos, com segmentação, mensagem planejada e acompanhamento das respostas.",
   },
   {
     q: "A solução garante que minha conta nunca será bloqueada?",
-    a: "Não existe garantia absoluta em nenhuma operação de WhatsApp. Trabalhamos com uma abordagem orientada a boas práticas, comunicação responsável e uso de bases autorizadas para reduzir riscos e melhorar a experiência dos contatos.",
+    a: "Não existe garantia absoluta em nenhuma operação de WhatsApp. Trabalhamos com uma abordagem orientada a boas práticas, comunicação responsável e uso de sua base de contatos para reduzir riscos e melhorar a experiência dos contatos.",
   },
   {
     q: "Para quem essa solução é indicada?",
-    a: "Para empresas que possuem uma base de clientes ou leads autorizados e querem reativar contatos, recuperar oportunidades e melhorar a comunicação comercial pelo WhatsApp.",
+    a: "Para empresas que possuem uma base de clientes ou leads e clientes e querem reativar contatos, recuperar oportunidades e melhorar a comunicação comercial pelo WhatsApp.",
   },
 ];
 
