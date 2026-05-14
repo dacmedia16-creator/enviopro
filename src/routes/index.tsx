@@ -4,17 +4,17 @@ import { Landing } from "@/components/landing/Landing";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "EnvioPro | Campanhas de WhatsApp para Bases Autorizadas" },
+      { title: "EnvioPro | Alcance 2 mil clientes por dia a partir de R$0,05" },
       {
         name: "description",
         content:
-          "Ative clientes e leads autorizados pelo WhatsApp com campanhas planejadas, segmentação e acompanhamento das respostas. Gere novas oportunidades comerciais com comunicação responsável.",
+          "Venda no automático pelo WhatsApp com API Oficial, IA, CRM e Omnichannel. Alcance 2.000+ clientes por dia a partir de R$0,05 por contato. Participe da apresentação ao vivo na terça às 13h30.",
       },
-      { property: "og:title", content: "EnvioPro | Campanhas de WhatsApp para Bases Autorizadas" },
+      { property: "og:title", content: "EnvioPro | Alcance 2 mil clientes por dia a partir de R$0,05" },
       {
         property: "og:description",
         content:
-          "Ative clientes e leads autorizados pelo WhatsApp com campanhas planejadas, segmentação e acompanhamento das respostas.",
+          "Venda no automático com API Oficial, IA, CRM e Omnichannel. Apresentação ao vivo terça às 13h30.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
