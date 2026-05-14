@@ -4,7 +4,7 @@ import { CTAButton } from "./CTAButton";
 
 const seals = [
   { icon: ShieldCheck, label: "Uso responsável" },
-  { icon: BadgeCheck, label: "Base autorizada" },
+  { icon: BadgeCheck, label: "Base organizada" },
   { icon: Lock, label: "Comunicação profissional" },
 ];
 
@@ -14,7 +14,7 @@ export function Compliance() {
       <div className="mx-auto max-w-5xl px-6">
         <SectionHeader
           eyebrow="Confiança"
-          title="Campanhas profissionais para bases autorizadas"
+          title="Campanhas profissionais para sua base de contatos"
           subtitle="Trabalhamos com campanhas para clientes, leads e contatos que tenham relação prévia com sua empresa. Isso aumenta a qualidade das respostas, protege sua marca e melhora o resultado da campanha."
         />
 
@@ -33,7 +33,7 @@ export function Compliance() {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <CTAButton>Tenho uma base autorizada</CTAButton>
+          <CTAButton>Tenho uma base de contatos</CTAButton>
         </div>
       </div>
     </section>

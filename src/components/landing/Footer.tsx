@@ -12,7 +12,7 @@ export function Footer() {
               <span className="text-lg font-extrabold">{BRAND}</span>
             </div>
             <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-              Campanhas de WhatsApp para empresas ativarem bases autorizadas e gerarem novas conversas comerciais.
+              Campanhas de WhatsApp para empresas ativarem sua base de contatos e gerarem novas conversas comerciais.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export function Footer() {
 
         <div className="mt-10 border-t border-border pt-6 text-xs text-muted-foreground">
           <p>
-            Campanhas realizadas para bases autorizadas e contatos com relacionamento prévio,
+            Campanhas realizadas para sua base de contatos e contatos com relacionamento prévio,
             seguindo boas práticas de comunicação responsável.
           </p>
           <p className="mt-2">© {new Date().getFullYear()} {BRAND}. Todos os direitos reservados.</p>
