@@ -24,11 +24,11 @@ export function MailingSection() {
               ORGANIZAÇÃO DA BASE DE CONTATOS
             </div>
             <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
-              Precisa <span className="text-primary">organizar sua base</span> para gerar mais oportunidades?
+              Não tem base de contatos? <span className="text-primary">Nós fornecemos.</span>
             </h2>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              Apoiamos sua empresa na organização, higienização e segmentação da base de contatos,
-              ajudando a criar campanhas mais relevantes e direcionadas para públicos com autorização de comunicação.
+              Disponibilizamos mailing segmentado por DDD, estado, cidade, bairro, perfil, profissão e poder aquisitivo —
+              ideal para quem ainda não tem uma base própria e quer alcançar novos clientes pelo WhatsApp.
             </p>
           </div>
 
