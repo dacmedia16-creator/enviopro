@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Para quem essa solução é indicada?",
-    a: "Para empresas que possuem uma base de clientes ou leads e clientes e querem reativar contatos, recuperar oportunidades e melhorar a comunicação comercial pelo WhatsApp.",
+    a: "Para qualquer empresa que quer vender mais pelo WhatsApp — tanto quem já tem uma base de clientes/leads e quer reativar, quanto quem ainda não tem contatos e precisa alcançar novos públicos por região, perfil ou interesse.",
   },
 ];
 

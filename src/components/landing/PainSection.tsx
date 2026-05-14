@@ -17,7 +17,7 @@ export function PainSection() {
         <SectionHeader
           eyebrow="⚠ Atenção"
           title="Você pode estar perdendo vendas todos os dias"
-          subtitle="Enquanto sua empresa não se comunica com a base que já tem, leads esfriam, clientes esquecem suas ofertas e oportunidades deixam de virar vendas."
+          subtitle="Sem uma comunicação ativa pelo WhatsApp, leads esfriam, clientes esquecem suas ofertas e novos públicos nem chegam a conhecer sua empresa."
         />
 
         <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">

@@ -24,7 +24,8 @@ export function ForWho() {
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
           eyebrow="Para quem é"
-          title="Para empresas que já têm contatos e querem vender mais"
+          title="Para empresas que querem alcançar mais clientes pelo WhatsApp"
+          subtitle="Se você já tem uma base, ajudamos a ativá-la. Se ainda não tem, ajudamos a alcançar novos públicos com mailing segmentado por região, perfil e interesse."
         />
 
         <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
@@ -43,13 +44,13 @@ export function ForWho() {
 
         <div className="mx-auto mt-12 max-w-3xl rounded-3xl border-l-4 border-urgency bg-surface p-6 text-center md:p-8">
           <p className="text-lg font-bold leading-snug md:text-xl">
-            <span className="text-urgency">★</span> Se você tem uma base de contatos, você tem um{" "}
-            <span className="text-urgency">ativo comercial</span> que pode ser ativado hoje.
+            <span className="text-urgency">★</span> Tendo base própria ou não, sua empresa pode começar a gerar{" "}
+            <span className="text-urgency">novas oportunidades</span> hoje mesmo.
           </p>
         </div>
 
         <div className="mt-10 flex justify-center">
-          <CTAButton>Tenho uma base e quero ativar</CTAButton>
+          <CTAButton>Quero alcançar mais clientes</CTAButton>
         </div>
       </div>
     </section>
