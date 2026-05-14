@@ -46,10 +46,10 @@ export function MailingSection() {
 
             <div className="flex flex-col items-center text-center gap-4 pt-6 border-t border-border">
               <p className="text-lg md:text-xl font-semibold">
-                Agende uma conversa com nossos especialistas e descubra como{" "}
-                <span className="text-primary">aproveitar melhor a base que sua empresa já tem</span>.
+                Fale com nossos especialistas e descubra como{" "}
+                <span className="text-primary">alcançar novos clientes mesmo sem uma base própria</span>.
               </p>
-              <CTAButton>Quero organizar minha base</CTAButton>
+              <CTAButton>Quero alcançar novos clientes</CTAButton>
             </div>
           </div>
         </div>
